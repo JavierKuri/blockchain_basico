@@ -1,5 +1,6 @@
 from block import block
 from blockchain import blockchain
+import json
 
 if __name__ == "__main__":
     my_chain = blockchain()
@@ -16,3 +17,9 @@ if __name__ == "__main__":
         print(f"  Hash: {block.hash}\n")
 
     my_chain.verify_hashes()
+
+    with open("./blockchain.json", "w") as f:
+        json.dump([b.__dict__ for b in my_chain.chain], f, indent=4)
+
+    with open("./blockchain.json", "r") as f:
+        loaded_chain = json.load(f)
