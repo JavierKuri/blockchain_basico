@@ -1,7 +1,7 @@
 import hashlib
 import time
 
-class Block:
+class block:
     def __init__(self, previous_hash: str, content: str):
         self.previous_hash = previous_hash
         self.timestamp = time.time()
