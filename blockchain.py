@@ -11,3 +11,10 @@ class blockchain:
         previous_hash = self.chain[-1].hash
         new_block = block(previous_hash, content)
         self.chain.append(new_block)
+
+    def verify_hashes(self):
+        for i in range(len(self.chain)-1):
+            if self.chain[i].hash != self.chain[i+1].previous_hash:
+                print("Error, hashes do not match")
+                break
+        print("All hashes match correctly")
