@@ -1,0 +1,38 @@
+[
+    {
+        "previous_hash": "\\emptyset",
+        "timestamp": 1758846201.3144593,
+        "content": "Genesis Block",
+        "hash": "fc325dd4b03129dcafceca02706846168eed6da6895dec4e89774d4c0aac0ca9"
+    },
+    {
+        "previous_hash": "fc325dd4b03129dcafceca02706846168eed6da6895dec4e89774d4c0aac0ca9",
+        "timestamp": 1758846201.3144593,
+        "content": "Player 2 sent 577 dollars to player 1",
+        "hash": "c9776f531cb1f90c0d55334d29d07daf233e19308010e21a707e998460e9cbb2"
+    },
+    {
+        "previous_hash": "c9776f531cb1f90c0d55334d29d07daf233e19308010e21a707e998460e9cbb2",
+        "timestamp": 1758846201.3144593,
+        "content": "Player 0 sent 241 dollars to player 2",
+        "hash": "867f3bf36fb18e25aa746e0038b612a7ceff6ae48f0eafad50f558d0a9c1af8b"
+    },
+    {
+        "previous_hash": "867f3bf36fb18e25aa746e0038b612a7ceff6ae48f0eafad50f558d0a9c1af8b",
+        "timestamp": 1758846201.324656,
+        "content": "Player 1 sent 566 dollars to player 2",
+        "hash": "89994daaea7b731a32fed2af386a70831096f1c893c6ae6ee7ecbc8274bc01bd"
+    },
+    {
+        "previous_hash": "89994daaea7b731a32fed2af386a70831096f1c893c6ae6ee7ecbc8274bc01bd",
+        "timestamp": 1758846201.324656,
+        "content": "Player 3 sent 923 dollars to player 0",
+        "hash": "ffe3044943e6c3f28bb41ecfe21f567191c6331526c9e6bed8176157f768389a"
+    },
+    {
+        "previous_hash": "ffe3044943e6c3f28bb41ecfe21f567191c6331526c9e6bed8176157f768389a",
+        "timestamp": 1758846201.324656,
+        "content": "Player 3 sent 71 dollars to player 2",
+        "hash": "50ec8272794edb22e863a81f343a448730fd4aede67c45d3eba44a6980629828"
+    }
+]
